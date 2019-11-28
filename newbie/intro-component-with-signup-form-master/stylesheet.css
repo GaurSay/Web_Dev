@@ -1,0 +1,89 @@
+body{
+  background-image: url('./images/bg-intro-desktop.png');
+  font-family: 'Poppins', sans-serif;
+  background-color: #e23e57;
+}
+.left{
+  color: white;
+  text-align:left;
+  padding-top: 100px;
+  margin: 100px 50px 150px 150px;
+  height: 400px;
+  width: 400px;
+}
+.term{
+  font-size: 0.8rem;
+}
+.input{
+  margin:10px 50px ;
+  background-color: #dbe2ef;
+  height: 400px;
+  width: 400px;
+  padding: 30px;
+  border-radius: 5%;
+}
+.input:hover{
+  background-color: #ffaaa5;
+}
+.textbox{
+  width: 90%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.check{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+}
+.top{
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.intro{
+  display: flex;
+  height: 700px;
+  width: 1477px;
+}
+.desktop{
+  margin-left: 40px;
+
+}
+.trialbtn{
+  margin: 5px 0 5px 30px;
+  width:80%;
+  background-color: #3f72af;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.trialbtn:hover{
+    background-color: #3d84a8;
+}
+
+.button{
+  width:100%;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #45a049;
+}
+.content{
+  width: 100%;
+}
+
+.sp{
+  width: 80%;
+  font-size: 3rem;
+}
