@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/1653420ee3.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>DICE GAME JS </title>
+</head>
+
+<body>
+  <div class="section">
+    <div class="row shadow-lg rounded">
+      <div class="center-material">
+        <button id="btnNewgame" class="btn btn-lg btn-light" type="button"><i class="fas fa-plus-circle"></i> New game</button><br>
+        <img id="dice" src="images/dice1.png" alt="dice_image"><br>
+        <button id="btn-rollDice" class="btn btn-lg btn-light" type="button"><i class="fas fa-redo"></i> Roll Dice</button><br>
+        <button id="btn-hold" class="btn btn-lg btn-light" type="button"><i class="far fa-hand-paper"></i> Hold</button>
+      </div>
+      <div class="box panel1">
+        <h3>PLAYER 1 <i id="p1_chance" class="far fa-dot-circle"></i></h3>
+        <label class="label" id="player1-total">0</label>
+        <div class="current">
+          Current
+          <br><br>
+          <label id="p1_score">0</label>
+        </div>
+      </div>
+
+      <div class="box panel2">
+        <h3>PLAYER 2 <i id="p2_chance" class="far fa-dot-circle"></i></h3>
+        <label class="label" id="player2-total">0</label>
+        <div class="current">
+          Current
+          <br><br>
+          <label id="p2_score">0</label>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
